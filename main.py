@@ -12,12 +12,3 @@ bob.shape("turtle")
 
 
 
-def star(length, red):
-  bob.fillcolor(red)
-  bob.begin_fill()
-  x=0
-  while x <15:
-    bob.forward(int(length))
-    bob.right(144)
-    x += 1
-  bob.end_fill()
