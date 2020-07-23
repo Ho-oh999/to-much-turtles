@@ -12,7 +12,6 @@ bob.shape("turtle")
 
 
 
-
 def star(length, red):
   bob.fillcolor(red)
   bob.begin_fill()
